@@ -13,7 +13,7 @@ workflow plink2_score {
     }
 
     output {
-        
+        Array[File] score_out = plink2score.score_out
     }
 
      meta {
